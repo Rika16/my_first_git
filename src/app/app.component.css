@@ -1,0 +1,61 @@
+
+body {
+  background-color: rgb(14, 3, 78);
+  margin: 0px;
+  padding: 20px;
+}
+h3 {
+  color: wheat;
+}
+
+li {
+  list-style: none;
+}
+
+.test {
+  font-size: 26px;
+}
+
+.zonaOne {
+  display:flex;
+  flex-wrap: wrap;
+}
+.zonaTwo {
+  display:flex;
+}
+.zonaFour {
+  display:flex;
+
+}
+
+.zonaFive {
+  display:flex;
+}
+
+.zonaOne li, .zonaTwo li, .zonaFour li, .zonaFive li{
+  background-color: hsl(226, 68%, 42%);
+  padding: 15px 30px 15px 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: white;
+  border-left: 10px solid yellow;
+}
+
+.sku {
+  display: flex;
+  padding: 3px 10px 0px 15px;
+  font-size: 20px;
+  width: 50px;
+  height: 40px;
+  justify-content: space-between;
+
+}
+
+.item_sku {
+  margin: -15px -30px 0px 0px;
+  font-size: 12px;
+
+}
+
+
